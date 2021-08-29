@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Would you like to know more about it?{' '}
+          Would you like to know more about it ?{' '}
           <code className={styles.code}>checkout here</code>
         </p>
 
