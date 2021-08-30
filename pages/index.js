@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,55 +14,52 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          NFT <a href="https://nextjs.org">Pixel Saga</a>
+          NFT <a href="https://opensea.io/collection/pixel-saga">Pixel Saga</a>
         </h1>
 
         <p className={styles.description}>
           Would you like to know more about it ?{' '}
-          <code className={styles.code}>checkout here</code>
+          <code className={styles.code}>
+            <Link href="https://opensea.io/collection/pixel-saga">
+              click here to see more
+            </Link>
+          </code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832894761057124353" className={styles.card}>
+            <h2>Pixel #01</h2>
+            <img 
+              src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285167/pixel-saga-nft/01.png"
+              alt="Pixel Saga #01"
+            />
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832895860568752129" className={styles.card}>
+            <h2>Pixel #02</h2>
+            <img 
+              src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285162/pixel-saga-nft/02.png"
+              alt="Pixel Saga #02"
+            />
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832896960080379905" className={styles.card}>
+            <h2>Pixel #03</h2>
+            <img 
+              src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285182/pixel-saga-nft/pixil-frame-0_1.png"
+              alt="Pixel Saga #03"
+            />
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://twitter.com/dslaurindo"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Twitter{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Twitter
         </a>
       </footer>
     </div>
