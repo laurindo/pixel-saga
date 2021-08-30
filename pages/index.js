@@ -27,7 +27,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832894761057124353" className={styles.card}>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81210281507696217995685449912678685468372656662771121513866832894761057124353/" className={styles.card}>
             <h2>Pixel #01</h2>
             <img 
               src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285167/pixel-saga-nft/01.png"
@@ -35,7 +35,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832895860568752129" className={styles.card}>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81210281507696217995685449912678685468372656662771121513866832895860568752129/" className={styles.card}>
             <h2>Pixel #02</h2>
             <img 
               src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285162/pixel-saga-nft/02.png"
@@ -43,7 +43,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/81210281507696217995685449912678685468372656662771121513866832896960080379905" className={styles.card}>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81210281507696217995685449912678685468372656662771121513866832896960080379905/" className={styles.card}>
             <h2>Pixel #03</h2>
             <img 
               src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630285182/pixel-saga-nft/pixil-frame-0_1.png"
