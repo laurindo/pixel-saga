@@ -51,8 +51,12 @@ export default function Home() {
             />
           </a>
 
-          <a href="#" className={styles.card}>
-            <h2>more soon...</h2>
+          <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81210281507696217995685449912678685468372656662771121513866832898059592007681/" className={styles.card}>
+            <h2>Pixel #04</h2>
+            <img 
+              src="https://res.cloudinary.com/luneswallet/image/upload/c_scale,w_102/v1630288806/pixel-saga-nft/04.png"
+              alt="Pixel Saga #04"
+            />
           </a>
         </div>
       </main>
