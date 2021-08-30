@@ -50,6 +50,10 @@ export default function Home() {
               alt="Pixel Saga #03"
             />
           </a>
+
+          <a href="#" className={styles.card}>
+            <h2>more soon...</h2>
+          </a>
         </div>
       </main>
 
